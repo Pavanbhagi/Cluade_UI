@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopZone Amazon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">ShopZone</h2>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search products...">
+    <button>🔍</button>
+  </div>
+
+  <div>
+    <a href="login.html" class="nav-link">Login</a>
+    <button onclick="toggleCart()" class="cart-btn">
+      Cart (<span id="cartCount">0</span>)
+    </button>
+  </div>
+</header>
+
+<!-- CAROUSEL -->
+<section class="carousel">
+<section class="carousel">
+  <div class="slide active">🔥 Mega Sale Up To 50% Off</div>
+  <div class="slide">🎧 Best Electronics Deals</div>
+  <div class="slide">💻 Laptop Offers Today</div>
+</section>
+</section>
+
+<!-- PRODUCTS -->
+<h2 class="title">Featured Products</h2>
+<div class="product-grid" id="productGrid"></div>
+
+<!-- CART -->
+<div class="cart-panel" id="cartPanel">
+  <h2>Your Cart</h2>
+  <div id="cartItems"></div>
+  <h3>Total ₹<span id="totalPrice">0</span></h3>
+
+  <a href="checkout.html">
+    <button class="checkout-btn">Checkout</button>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
