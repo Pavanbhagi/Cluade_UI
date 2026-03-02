@@ -32,7 +32,12 @@
 
       <header>
         <h3>AI Assistant</h3>
-        <p>Claude-style interface</p>
+        <div class="model-select">
+          <select id="modelSelect">
+            <option value="gpt-4o-mini">GPT-4o Mini</option>
+            <option value="gpt-4o">GPT-4o</option>
+          </select>
+        </div>
       </header>
 
       <div id="chatBox" class="chat-box"></div>

@@ -118,7 +118,7 @@ button {
 }
 
 /* 🌙 Dark Mode */
-.dark body {
+body.dark {
   background: #111;
 }
 
