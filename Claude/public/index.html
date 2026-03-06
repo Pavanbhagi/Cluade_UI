@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude AI Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<!-- Sidebar -->
+<div class="sidebar">
+
+<h2>Claude</h2>
+
+<button class="new-chat" onclick="newChat()">+ New Chat</button>
+
+</div>
+
+
+<!-- Chat Container -->
+<div class="chat-container">
+
+<header>
+<h3>AI Assistant</h3>
+</header>
+
+<div id="chatBox" class="chat-box"></div>
+
+<div class="input-area">
+
+<input id="apiKey" placeholder="Paste Google API Key here">
+
+<input id="userInput" placeholder="Message AI...">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
